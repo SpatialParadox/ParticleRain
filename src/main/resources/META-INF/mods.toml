@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+
+[[mods]]
+modId="particlerain"
+version="${file.jarVersion}"
+displayName="Particle Rain"
+#logoFile="examplemod.png"
+credits="PigCart for creating the original mod for Fabric"
+authors="Condolence"
+description='''
+A mod which replaces the default rain with particle effects.
+'''
+
+[[dependencies.particlerain]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.particlerain]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "package": "condolence.particlerain.mixin",
+  "refmap": "particlerain.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
