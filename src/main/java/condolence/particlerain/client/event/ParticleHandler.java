@@ -52,7 +52,7 @@ public class ParticleHandler {
                                 particlePos.getY() + rand.nextFloat(),
                                 particlePos.getZ() + rand.nextFloat(),
                                 0, 0, 0);
-                    } else {
+                    } else if (pass % 2 == 0) {
                         world.addParticle((IParticleData) ModParticles.SNOW_FLAKE.get(),
                                 particlePos.getX() + rand.nextFloat(),
                                 particlePos.getY() + rand.nextFloat(),
@@ -63,8 +63,7 @@ public class ParticleHandler {
                 }
 
                 // Spawn snow particle if the biome is as biome in which snow occurs
-                if (particleBiome.getPrecipitation() == Biome.RainType.SNOW) {
-                    ParticleRain.LOGGER.info("Biome - SNOW");
+                if (particleBiome.getPrecipitation() == Biome.RainType.SNOW && pass % 2 == 0) {
                     world.addParticle((IParticleData) ModParticles.SNOW_FLAKE.get(),
                             particlePos.getX() + rand.nextFloat(),
                             particlePos.getY() + rand.nextFloat(),
