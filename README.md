@@ -6,4 +6,6 @@ Additionally, it also adds sand storms in desert and mesa biomes.
 
 This is a (mostly) faithful Forge port of the [Particle Rain](https://www.curseforge.com/minecraft/mc-mods/particle-rain) mod for Fabric.
 
+This will be uploaded to CurseForge as a Forge port of the Particle Rain mod (probably) once alternative login methods are added to the website.
+
 **NOTICE**: Since this mod spawns particles, it is likely to have a fairly significant impact on performance, especially on lower-end PCs.
