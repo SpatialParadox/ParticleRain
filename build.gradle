@@ -20,7 +20,7 @@ mixin {
     add sourceSets.main, "particlerain.refmap.json"
 }
 
-version = "${minecraft_version}-${mod_version}"
+version = "${build_version}-${mod_version}"
 group = 'condolence.particlerain'
 archivesBaseName = 'ParticleRain'
 
